@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Random chess app
 
-You can use the [editor on GitHub](https://github.com/MWHunter/mycis245finalapp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the random chess app webpage!  Here we have a few things:
+- A revolutionary new chess engine from scratch with a depth of... 0.5 moves.  This is balanced by mutations however:
+  - A higher number of mutations means more moves are played before the game begins
+  - Sometimes you get unlucky with a bad position and have no chance at winning
+  - Sometimes you get a really good position
+- A global highscore system
+- Saving the number of mutations that the user selects
+- You can spam new game without breaking anything
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Audience
+Gamers.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Challenges
+Data storage was difficult without the use of objects.  It works for everything the app needs to do, however.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MWHunter/mycis245finalapp/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Successes
+Sometimes the engine is lucky and plays a good move, it has beaten me a few times
